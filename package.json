@@ -1,5 +1,5 @@
 {
-  "name": "ionic_docs",
+  "name": "ionic_vue_quickstart",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@capacitor/cli": "4.3.0",
     "@types/jest": "^27.0.2",
+    "@types/webpack-env": "^1.18.0",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "@vue/cli-plugin-babel": "~5.0.0-rc.1",
