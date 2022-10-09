@@ -10,6 +10,7 @@ specifiers:
   '@ionic/vue': ^6.0.0
   '@ionic/vue-router': ^6.0.0
   '@types/jest': ^27.0.2
+  '@types/webpack-env': ^1.18.0
   '@typescript-eslint/eslint-plugin': ^5.6.0
   '@typescript-eslint/parser': ^5.6.0
   '@vue/cli-plugin-babel': ~5.0.0-rc.1
@@ -50,6 +51,7 @@ dependencies:
 devDependencies:
   '@capacitor/cli': 4.3.0
   '@types/jest': 27.5.2
+  '@types/webpack-env': 1.18.0
   '@typescript-eslint/eslint-plugin': 5.39.0_cfd7h3iktziq6hcwahu2qxhjhy
   '@typescript-eslint/parser': 5.39.0_z4bbprzjrhnsfa24uvmcbu7f5q
   '@vue/cli-plugin-babel': 5.0.8_xxwioyikbzsjva532fm6366usu
