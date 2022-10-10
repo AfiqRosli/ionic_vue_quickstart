@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 
-import { IonicVue } from "@ionic/vue";
+import { IonicVue, IonContent, IonPage } from "@ionic/vue";
 
 /* Global Imports */
 import { addIcons } from "ionicons";
@@ -32,6 +32,9 @@ import "@ionic/vue/css/display.css";
 import "./theme/variables.css";
 
 const app = createApp(App).use(IonicVue).use(router);
+
+app.component("ion-content", IonContent);
+app.component("ion-page", IonPage);
 
 router.isReady().then(() => {
   app.mount("#app");

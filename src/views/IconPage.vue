@@ -9,15 +9,11 @@
 
 <script lang="ts">
 import { heart } from "ionicons/icons";
-import { IonContent, IonPage } from "@ionic/vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "IconPage",
-  components: {
-    IonContent,
-    IonPage,
-  },
+
   setup() {
     return { heart };
   },
