@@ -2,6 +2,7 @@
   <ion-page>
     <ion-content>
       <ion-icon :icon="heart"></ion-icon>
+      <ion-icon icon="infinite-outline"></ion-icon>
     </ion-content>
   </ion-page>
 </template>
